@@ -2,7 +2,7 @@ import * as THREE from 'three'
 // 导入轨道控制器
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
 
-//目标  控制物体缩放
+//目标  requestAnimationFrame  时间参数 控制物体动画
 //1.初始化 构建一个场景
 const scene = new THREE.Scene()
 //2. 创建一个相机(有各种类型相机)  相当于人的眼睛 用于观察事物

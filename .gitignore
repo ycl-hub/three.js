@@ -1,2 +1,4 @@
 node_modules/
 three.js-dev/
+.parcel-cache/
+.cache/
